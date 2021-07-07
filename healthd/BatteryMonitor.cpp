@@ -201,6 +201,7 @@ BatteryMonitor::PowerSupplyType BatteryMonitor::readPowerSupplyType(const String
             {"DASH", ANDROID_POWER_SUPPLY_TYPE_AC},
             {"VOOC", ANDROID_POWER_SUPPLY_TYPE_AC},
             {"WARP", ANDROID_POWER_SUPPLY_TYPE_AC},
+            {"SUPERDART", ANDROID_POWER_SUPPLY_TYPE_AC},
             {NULL, 0},
     };
     std::string buf;
